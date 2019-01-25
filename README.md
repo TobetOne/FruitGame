@@ -11,88 +11,86 @@
     hash_hex = hex(sha256(seed_sign))   
   3. 对hash_hex计算hashcode
   4. result = Abs(hashcode%220264) + 1
-  5. <div style="text-align:center">
-                    <table border="1" class="formula" width="100%">
+  5. <table style="text-align:center" width="100%">
                         <tr>
-                            <td class='tableRow13'>result<= </td>
-                            <td class='tableRow24'>结果</td>
-                            <td class='tableRow13'>result<= </td>
-                            <td class='tableRow24'>结果</td>
+                            <td stype="width:25%">result<= </td>
+                            <td stype="width:25%">结果</td>
+                            <td stype="width:25%">result<= </td>
+                            <td stype="width:25%">结果</td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>35242</td>
-                            <td class='tableRow24'><img src="./image/apple.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>52024</td>
-                            <td class='tableRow24'><img src="./image/apple_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">35242</td>
+                            <td stype="width:25%"><img src="./image/apple.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">52024</td>
+                            <td stype="width:25%"><img src="./image/apple_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>69645</td>
-                            <td class='tableRow24'><img src="./image/orange.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>86427</td>
-                            <td class='tableRow24'><img src="./image/orange_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">69645</td>
+                            <td stype="width:25%"><img src="./image/orange.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">86427</td>
+                            <td stype="width:25%"><img src="./image/orange_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>98174</td>
-                            <td class='tableRow24'><img src="./image/pawpaw.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>114956</td>
-                            <td class='tableRow24'><img src="./image/pawpaw_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">98174</td>
+                            <td stype="width:25%"><img src="./image/pawpaw.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">114956</td>
+                            <td stype="width:25%"><img src="./image/pawpaw_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>123767</td>
-                            <td class='tableRow24'><img src="./image/bell.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>140549</td>
-                            <td class='tableRow24'><img src="./image/bell_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">123767</td>
+                            <td stype="width:25%"><img src="./image/bell.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">140549</td>
+                            <td stype="width:25%"><img src="./image/bell_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>149360</td>
-                            <td class='tableRow24'><img src="./image/watermelon.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>166142</td>
-                            <td class='tableRow24'><img src="./image/watermelon_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">149360</td>
+                            <td stype="width:25%"><img src="./image/watermelon.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">166142</td>
+                            <td stype="width:25%"><img src="./image/watermelon_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>172016</td>
-                            <td class='tableRow24'><img src="./image/star.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>188798</td>
-                            <td class='tableRow24'><img src="./image/star_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">172016</td>
+                            <td stype="width:25%"><img src="./image/star.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">188798</td>
+                            <td stype="width:25%"><img src="./image/star_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>193203</td>
-                            <td class='tableRow24'><img src="./image/77.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>209985</td>
-                            <td class='tableRow24'><img src="./image/77_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">193203</td>
+                            <td stype="width:25%"><img src="./image/77.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">209985</td>
+                            <td stype="width:25%"><img src="./image/77_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>213509</td>
-                            <td class='tableRow24'><img src="./image/bar_s.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>215271</td>
-                            <td class='tableRow24'><img src="./image/bar.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">213509</td>
+                            <td stype="width:25%"><img src="./image/bar_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">215271</td>
+                            <td stype="width:25%"><img src="./image/bar.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>215605</td>
-                            <td class='tableRow24'><img src="./image/sixi.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>215772</td>
-                            <td class='tableRow24'><img src="./image/smallternary.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">215605</td>
+                            <td stype="width:25%"><img src="./image/sixi.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">215772</td>
+                            <td stype="width:25%"><img src="./image/smallternary.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>215922</td>
-                            <td class='tableRow24'><img src="./image/largeternary.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>216122</td>
-                            <td class='tableRow24'><img src="./image/bar_s.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">215922</td>
+                            <td stype="width:25%"><img src="./image/largeternary.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">216122</td>
+                            <td stype="width:25%"><img src="./image/bar_s.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>216247</td>
-                            <td class='tableRow24'><img src="./image/bar.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'>216272</td>
-                            <td class='tableRow24'><img src="./image/all.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">216247</td>
+                            <td stype="width:25%"><img src="./image/bar.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%">216272</td>
+                            <td stype="width:25%"><img src="./image/all.png" height="30px" width="30px"/></td>
                         </tr>
                         <tr>
-                            <td class='tableRow13'>other</td>
-                            <td class='tableRow24'><img src="./image/none.png" height="30px" width="30px"/></td>
-                            <td class='tableRow13'></td>
-                            <td class='tableRow24'></td>
+                            <td stype="width:25%">other</td>
+                            <td stype="width:25%"><img src="./image/none.png" height="30px" width="30px"/></td>
+                            <td stype="width:25%"></td>
+                            <td stype="width:25%"></td>
                         </tr>
                     </table>
-                </div>
 
 ## 随机因子说明
    seed = GameId+BetPlayersCount+BetAmount*10000+LastBetTime
