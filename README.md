@@ -11,29 +11,29 @@
     hash_hex = hex(sha256(seed_sign))   
   3. 对hash_hex计算hashcode
   4. result = Abs(hashcode%220264) + 1
-  5. result <= 35242: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/apple.png){:height="30px" width="30px"}<br>
-     result <= 52024: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/apple_s.png){:height="30px" width="30px"}<br>
-     result <= 69645: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/orange.png){:height="30px" width="30px"}<br>
-     result <= 86427: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/orange_s.png){:height="30px" width="30px"}<br>
-     result <= 98174: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw.png){:height="30px" width="30px"}<br>
-     result <= 114956: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw_s.png){:height="30px" width="30px"}<br>
-     result <= 123767: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bell.png){:height="30px" width="30px"}<br>
-     result <= 140549: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bell_s.png){:height="30px" width="30px"}<br>
-     result <= 149360: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/watermelon.png){:height="30px" width="30px"}<br>
-     result <= 166142: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/watermelon_s.png){:height="30px" width="30px"}<br>
-     result <= 172016: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/star.png){:height="30px" width="30px"}<br>
-     result <= 188798: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/star_s.png){:height="30px" width="30px"}<br>
-     result <= 193203: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/77.png){:height="30px" width="30px"}<br>
-     result <= 209985: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/77_s.png){:height="30px" width="30px"}<br>
-     result <= 213509: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png){:height="30px" width="30px"}<br>
-     result <= 215271: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar.png){:height="30px" width="30px"}<br>
-     result <= 215605: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/sixi.png){:height="30px" width="30px"}<br>
-     result <= 215772: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/smallternary.png){:height="30px" width="30px"}<br>
-     result <= 215922: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/largeternary.png){:height="30px" width="30px"}<br>
-     result <= 216122: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png){:height="30px" width="30px"}<br>
-     result <= 216247: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar.png){:height="30px" width="30px"}<br>
-     result <= 216272: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/all.png){:height="30px" width="30px"}<br>
-     else: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/none.png){:height="30px" width="30px"}<br>
+  5. result <= 35242: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/apple.png" height="30px" width="30px"/><br>
+     result <= 52024: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/apple_s.png" height="30px" width="30px"/><br>
+     result <= 69645: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/orange.png" height="30px" width="30px"/><br>
+     result <= 86427: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/orange_s.png" height="30px" width="30px"/><br>
+     result <= 98174: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw.png" height="30px" width="30px"/><br>
+     result <= 114956: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw_s.png" height="30px" width="30px"/><br>
+     result <= 123767: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bell.png" height="30px" width="30px"/><br>
+     result <= 140549: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bell_s.png" height="30px" width="30px"/><br>
+     result <= 149360: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/watermelon.png" height="30px" width="30px"/><br>
+     result <= 166142: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/watermelon_s.png" height="30px" width="30px"/><br>
+     result <= 172016: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/star.png" height="30px" width="30px"/><br>
+     result <= 188798: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/star_s.png" height="30px" width="30px"/><br>
+     result <= 193203: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/77.png" height="30px" width="30px"/><br>
+     result <= 209985: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/77_s.png" height="30px" width="30px"/><br>
+     result <= 213509: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png" height="30px" width="30px"/><br>
+     result <= 215271: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar.png" height="30px" width="30px"/><br>
+     result <= 215605: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/sixi.png" height="30px" width="30px"/><br>
+     result <= 215772: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/smallternary.png" height="30px" width="30px"/><br>
+     result <= 215922: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/largeternary.png" height="30px" width="30px"/><br>
+     result <= 216122: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png" height="30px" width="30px"/><br>
+     result <= 216247: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar.png" height="30px" width="30px"/><br>
+     result <= 216272: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/all.png" height="30px" width="30px"/><br>
+     else: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/none.png" height="30px" width="30px"/><br>
 
 ## 随机因子说明
    seed = GameId+BetPlayersCount+BetAmount*10000+LastBetTime
