@@ -11,28 +11,29 @@
     hash_hex = hex(sha256(seed_sign))   
   3. 对hash_hex计算hashcode
   4. result = Abs(hashcode%220264) + 1
-  5. result <= 35242: apple
-     result <= 52024: smallapple
-     result <= 69645: orange
-     result <= 86427: smallorange
-     result <= 98174: pawpaw
-     result <= 114956: smallpawpaw
-     result <= 140549: smallbell
-     result <= 149360: watermelon
-     result <= 166142: smallwatermelon
-     result <= 172016: doublestar
-     result <= 188798: smalldoublestar
-     result <= 193203: sevenseven
-     result <= 209985: smallsevenseven
-     result <= 213509: smallbar
-     result <= 215271: largebar
-     result <= 215605: sixi
-     result <= 215772: smallternary
-     result <= 215922: largeternary
-     result <= 216122: giftsmallbar
-     result <= 216247: giftlargebar
-     result <= 216272: perfect
-     else: none
+  5. result <= 35242: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/apple.png)<br>
+     result <= 52024: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/apple_s.png)<br>
+     result <= 69645: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/orange.png)<br>
+     result <= 86427: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/orange_s.png)<br>
+     result <= 98174: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw.png)<br>
+     result <= 114956: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw_s.png)<br>
+     result <= 123767: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bell.png)<br>
+     result <= 140549: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bell_s.png)<br>
+     result <= 149360: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/watermelon.png)<br>
+     result <= 166142: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/watermelon_s.png)<br>
+     result <= 172016: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/star.png)<br>
+     result <= 188798: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/star_s.png)<br>
+     result <= 193203: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/77.png)<br>
+     result <= 209985: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/77_s.png)<br>
+     result <= 213509: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png)<br>
+     result <= 215271: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar.png)<br>
+     result <= 215605: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/sixi.png)<br>
+     result <= 215772: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/smallternary.png)<br>
+     result <= 215922: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/largeternary.png)<br>
+     result <= 216122: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png)<br>
+     result <= 216247: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/bar.png)<br>
+     result <= 216272: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/all.png)<br>
+     else: ![avatar](https://github.com/TobetOne/FruitGame/blob/master/image/none.png)<br>
 
 ## 随机因子说明
    seed = GameId+BetPlayersCount+BetAmount*10000+LastBetTime
