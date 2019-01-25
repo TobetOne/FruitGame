@@ -149,6 +149,12 @@
                 margin: 2% 4%;
                 font-size: 12px;
             }
+            .tableRow13{
+                width: 25%
+            }
+            .tableRow24{
+                width: 25%
+            }
         }
     </style>
 </head>
@@ -197,8 +203,8 @@
 
     //页面初始化参数
     window.onload = function () {
-        $("#playerSeed").val(GetQueryString('playerSeed'));
-        $("#playerSignature").val(GetQueryString('playerSignature'));
+        $("#playerSeed").val(GetQueryString('origHashSeed'));
+        $("#playerSignature").val(GetQueryString('signHashSeed'));
         $("#publicKey").val('EOS6CG8VwJ8G1iFn6x781PMojmfD7i4kqqzsgd1AjWwAaEz35QGhn');
     };
 
@@ -236,12 +242,89 @@
                 <p class="formulaTitle">公式（formula）：</p>
                 <p class="formula"> hash = SHA256(Player Signature);</p>
                 <p class="formula">hashCode = hash.hashcode;</p>
-                <p class="formula"> if (hashCode % 101 === 0) {</p>
-                <p class="formula"> return 1;</p>
-                <p class="formula"> }</p>
-                <p class="formula"> h = parseInt(hash.slice(0, 52 / 4), 16);</p>
-                <p class="formula">e = Math.pow(2, 52);</p>
-                <p class="formula"> result = (Math.floor((100 * e - h) / (e - h))) / 100;</p>
+                <p class="formula"> result = Math.abs(hashcode%220264) + 1</p>
+                <div style="text-align:center">
+                    <table border="1" class="formula" width="100%">
+                        <tr>
+                            <td class='tableRow13'>result<= </td>
+                            <td class='tableRow24'>结果</td>
+                            <td class='tableRow13'>result<= </td>
+                            <td class='tableRow24'>结果</td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>35242</td>
+                            <td class='tableRow24'><img src="./image/apple.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>52024</td>
+                            <td class='tableRow24'><img src="./image/apple_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>69645</td>
+                            <td class='tableRow24'><img src="./image/orange.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>86427</td>
+                            <td class='tableRow24'><img src="./image/orange_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>98174</td>
+                            <td class='tableRow24'><img src="./image/pawpaw.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>114956</td>
+                            <td class='tableRow24'><img src="./image/pawpaw_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>123767</td>
+                            <td class='tableRow24'><img src="./image/bell.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>140549</td>
+                            <td class='tableRow24'><img src="./image/bell_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>149360</td>
+                            <td class='tableRow24'><img src="./image/watermelon.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>166142</td>
+                            <td class='tableRow24'><img src="./image/watermelon_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>172016</td>
+                            <td class='tableRow24'><img src="./image/star.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>188798</td>
+                            <td class='tableRow24'><img src="./image/star_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>193203</td>
+                            <td class='tableRow24'><img src="./image/77.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>209985</td>
+                            <td class='tableRow24'><img src="./image/77_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>213509</td>
+                            <td class='tableRow24'><img src="./image/bar_s.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>215271</td>
+                            <td class='tableRow24'><img src="./image/bar.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>215605</td>
+                            <td class='tableRow24'><img src="./image/sixi.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>215772</td>
+                            <td class='tableRow24'><img src="./image/smallternary.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>215922</td>
+                            <td class='tableRow24'><img src="./image/largeternary.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>216122</td>
+                            <td class='tableRow24'><img src="./image/bar_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>216247</td>
+                            <td class='tableRow24'><img src="./image/bar.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>216272</td>
+                            <td class='tableRow24'><img src="./image/all.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>other</td>
+                            <td class='tableRow24'><img src="./image/none.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'></td>
+                            <td class='tableRow24'></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </form>
         <button class="verifyBtn" onclick="getBpResult()">Verify</button>

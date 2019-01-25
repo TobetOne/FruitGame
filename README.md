@@ -11,29 +11,88 @@
     hash_hex = hex(sha256(seed_sign))   
   3. 对hash_hex计算hashcode
   4. result = Abs(hashcode%220264) + 1
-  5. result <= 35242: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/apple.png" height="30px" width="30px"/><br>
-     result <= 52024: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/apple_s.png" height="30px" width="30px"/><br>
-     result <= 69645: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/orange.png" height="30px" width="30px"/><br>
-     result <= 86427: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/orange_s.png" height="30px" width="30px"/><br>
-     result <= 98174: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw.png" height="30px" width="30px"/><br>
-     result <= 114956: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/pawpaw_s.png" height="30px" width="30px"/><br>
-     result <= 123767: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bell.png" height="30px" width="30px"/><br>
-     result <= 140549: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bell_s.png" height="30px" width="30px"/><br>
-     result <= 149360: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/watermelon.png" height="30px" width="30px"/><br>
-     result <= 166142: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/watermelon_s.png" height="30px" width="30px"/><br>
-     result <= 172016: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/star.png" height="30px" width="30px"/><br>
-     result <= 188798: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/star_s.png" height="30px" width="30px"/><br>
-     result <= 193203: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/77.png" height="30px" width="30px"/><br>
-     result <= 209985: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/77_s.png" height="30px" width="30px"/><br>
-     result <= 213509: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png" height="30px" width="30px"/><br>
-     result <= 215271: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar.png" height="30px" width="30px"/><br>
-     result <= 215605: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/sixi.png" height="30px" width="30px"/><br>
-     result <= 215772: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/smallternary.png" height="30px" width="30px"/><br>
-     result <= 215922: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/largeternary.png" height="30px" width="30px"/><br>
-     result <= 216122: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar_s.png" height="30px" width="30px"/><br>
-     result <= 216247: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/bar.png" height="30px" width="30px"/><br>
-     result <= 216272: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/all.png" height="30px" width="30px"/><br>
-     else: <img src="https://github.com/TobetOne/FruitGame/blob/master/image/none.png" height="30px" width="30px"/><br>
+  5. <div style="text-align:center">
+                    <table border="1" class="formula" width="100%">
+                        <tr>
+                            <td class='tableRow13'>result<= </td>
+                            <td class='tableRow24'>结果</td>
+                            <td class='tableRow13'>result<= </td>
+                            <td class='tableRow24'>结果</td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>35242</td>
+                            <td class='tableRow24'><img src="./image/apple.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>52024</td>
+                            <td class='tableRow24'><img src="./image/apple_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>69645</td>
+                            <td class='tableRow24'><img src="./image/orange.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>86427</td>
+                            <td class='tableRow24'><img src="./image/orange_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>98174</td>
+                            <td class='tableRow24'><img src="./image/pawpaw.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>114956</td>
+                            <td class='tableRow24'><img src="./image/pawpaw_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>123767</td>
+                            <td class='tableRow24'><img src="./image/bell.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>140549</td>
+                            <td class='tableRow24'><img src="./image/bell_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>149360</td>
+                            <td class='tableRow24'><img src="./image/watermelon.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>166142</td>
+                            <td class='tableRow24'><img src="./image/watermelon_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>172016</td>
+                            <td class='tableRow24'><img src="./image/star.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>188798</td>
+                            <td class='tableRow24'><img src="./image/star_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>193203</td>
+                            <td class='tableRow24'><img src="./image/77.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>209985</td>
+                            <td class='tableRow24'><img src="./image/77_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>213509</td>
+                            <td class='tableRow24'><img src="./image/bar_s.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>215271</td>
+                            <td class='tableRow24'><img src="./image/bar.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>215605</td>
+                            <td class='tableRow24'><img src="./image/sixi.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>215772</td>
+                            <td class='tableRow24'><img src="./image/smallternary.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>215922</td>
+                            <td class='tableRow24'><img src="./image/largeternary.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>216122</td>
+                            <td class='tableRow24'><img src="./image/bar_s.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>216247</td>
+                            <td class='tableRow24'><img src="./image/bar.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'>216272</td>
+                            <td class='tableRow24'><img src="./image/all.png" height="30px" width="30px"/></td>
+                        </tr>
+                        <tr>
+                            <td class='tableRow13'>other</td>
+                            <td class='tableRow24'><img src="./image/none.png" height="30px" width="30px"/></td>
+                            <td class='tableRow13'></td>
+                            <td class='tableRow24'></td>
+                        </tr>
+                    </table>
+                </div>
 
 ## 随机因子说明
    seed = GameId+BetPlayersCount+BetAmount*10000+LastBetTime
