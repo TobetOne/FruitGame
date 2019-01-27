@@ -187,16 +187,57 @@
         //获取输入框的值
         var param = document.getElementById("playerSignature").value.trim();
         var result = 1.00;
-        var hash = CryptoJS.SHA256(param);
-        var hashCode = getHashCode(hash.toString())
-        if (hashCode % 101 === 0) {
-            return result
+        var hash = CryptoJS.SHA256(param).toString();
+        var result = parseInt(hash.substr(0,8), 16)%220264 + 1;
+        var imagePath = '';
+        if(result <= 35242){
+            imagePath = "./image/apple.png";
+        }else if(result <= 52024){
+            imagePath = "./image/apple_s.png";
+        }else if(result <= 69645){
+            imagePath = "./image/orange.png";
+        }else if(result <= 86427){
+            imagePath = "./image/orange_s.png";
+        }else if(result <= 98174){
+            imagePath = "./image/pawpaw.png";
+        }else if(result <= 114956){
+            imagePath = "./image/pawpaw_s.png";
+        }else if(result <= 123767){
+            imagePath = "./image/bell.png";
+        }else if(result <= 140549){
+            imagePath = "./image/bell_s.png";
+        }else if(result <= 149360){
+            imagePath = "./image/watermelon.png";
+        }else if(result <= 166142){
+            imagePath = "./image/watermelon_s.png";
+        }else if(result <= 172016){
+            imagePath = "./image/star.png";
+        }else if(result <= 188798){
+            imagePath = "./image/star_s.png";
+        }else if(result <= 193203){
+            imagePath = "./image/77.png";
+        }else if(result <= 209985){
+            imagePath = "./image/77_s.png";
+        }else if(result <= 213509){
+            imagePath = "./image/bar_s.png";
+        }else if(result <= 215271){
+            imagePath = "./image/bar.png";
+        }else if(result <= 215605){
+            imagePath = "./image/sixi.png";
+        }else if(result <= 215772){
+            imagePath = "./image/smallternary.png";
+        }else if(result <= 215922){
+            imagePath = "./image/largeternary.png";
+        }else if(result <= 216122){
+            imagePath = "./image/bar_s.png";
+        }else if(result <= 216247){
+            imagePath = "./image/bar.png";
+        }else if(result <= 216272){
+            imagePath = "./image/all.png";
+        }else{
+            imagePath = "./image/none.png";
         }
-        var h = parseInt(hash.toString().slice(0, 52 / 4), 16);
-        var e = Math.pow(2, 52);
-        result = (Math.floor((100 * e - h) / (e - h))) / 100;
-        console.log(result)
-        $("#reslut").val(result);
+        $("#resImg").attr('src', imagePath);
 
     }
 
@@ -235,8 +276,7 @@
             </div>
 
             <div class="inputDiv">
-                <p class="inputText">结果（reslut）:</p>
-                <input class="verInpt" disabled="disabled" id="reslut"/>
+                <p class="inputText">结果（reslut）:  <img id="resImg" src="" alt="" height="30px" width="30px" style='vertical-align:bottom'></p>
             </div>
             <div class="inputDiv">
                 <p class="formulaTitle">公式（formula）：</p>
