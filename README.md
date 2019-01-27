@@ -8,10 +8,9 @@
     seed = GameId+BetPlayersCount+BetAmount*10000+LastBetTime;  
     seed_sign = sign(seed)  
   2. 对随机种子hash（SH256）运算，结果转换为16进制  
-    hash_hex = hex(sha256(seed_sign))   
-  3. 对hash_hex计算hashcode
-  4. result = Abs(hashcode%220264) + 1
-  5. <table style="text-align:center" width="100%">
+    hash_hex = hex(sha256(seed_sign))
+  3. result = parseInt(hash_hex.substr(0,8),16)%220264 + 1
+  4. <table style="text-align:center" width="100%">
                         <tr>
                             <td stype="width:25%">result<= </td>
                             <td stype="width:25%">结果</td>

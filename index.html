@@ -241,8 +241,7 @@
             <div class="inputDiv">
                 <p class="formulaTitle">公式（formula）：</p>
                 <p class="formula"> hash = SHA256(Player Signature);</p>
-                <p class="formula">hashCode = hash.hashcode;</p>
-                <p class="formula"> result = Math.abs(hashcode%220264) + 1</p>
+                <p class="formula"> result = parseInt(hash.substr(0,8),16)%220264 + 1</p>
                 <div style="text-align:center">
                     <table border="1" class="formula" width="100%">
                         <tr>
