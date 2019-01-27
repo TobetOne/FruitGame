@@ -95,7 +95,7 @@
    seed = GameId+BetPlayersCount+BetAmount*10000+LastBetTime
 *  GameId:游戏ID
 *  BetPlayersCount:参与游戏玩家个数
-*  BetAmoun:本局游戏玩家总投注金额
+*  BetAmount:本局游戏玩家总投注金额
 *  LastBetTime:玩家的投注时间
 ## 签名验证
    验证签名使用Tobet的公钥（EOS6CG8VwJ8G1iFn6x781PMojmfD7i4kqqzsgd1AjWwAaEz35QGhn），对seed_sign进行ecc签名验证，验证结果通过即可证明随机种子未被篡改。
