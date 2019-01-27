@@ -10,9 +10,8 @@
   2. 对随机种子hash（SH256）运算，结果转换为16进制  
     hash_hex = hex(sha256(seed_sign))
   3. result = parseInt(hash_hex.substr(0,8),16)%220264 + 1
-  4. 结果对应
-      条件|结果|条件|结果| 
-      ---:|:-----:|:--:|:--
+  4. 条件|结果|条件|结果
+      -|-|-|-
       0<result≤35242|<img src="./image/apple.png" height="30px" width="30px"/>|35242<result≤52024|<img src="./image/apple_s.png" height="30px" width="30px"/>
       52024<result≤69645|<img src="./image/orange.png" height="30px" width="30px"/>|69645<result≤86427|<img src="./image/orange_s.png" height="30px" width="30px"/>
       86427<result≤98174|<img src="./image/pawpaw.png" height="30px" width="30px"/>|98174<result≤114956|<img src="./image/pawpaw_s.png" height="30px" width="30px"/>
