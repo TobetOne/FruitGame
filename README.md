@@ -12,10 +12,10 @@
   3. result = parseInt(hash_hex.substr(0,8),16)%220264 + 1
   4. <table style="text-align:center" width="100%">
                         <tr>
-                            <td stype="width:25%">result<= </td>
-                            <td stype="width:25%">结果</td>
-                            <td stype="width:25%">result<= </td>
-                            <td stype="width:25%">结果</td>
+                            <th stype="width:25%">result<= </td>
+                            <th stype="width:25%">结果</td>
+                            <th stype="width:25%">result<= </td>
+                            <th stype="width:25%">结果</td>
                         </tr>
                         <tr>
                             <td stype="width:25%">35242</td>
